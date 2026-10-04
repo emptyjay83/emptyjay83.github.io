@@ -10,7 +10,7 @@ With the account owner's permission, Email Assistant reads Gmail messages, appli
 
 ## How data is used
 
-Message content is used only to provide features to the account owner: classifying messages, extracting dates, reminders and reference details (such as confirmation numbers), tracking sent messages that are waiting for a reply, and producing a daily summary. To do this, message text is sent to xAI's Grok API for processing; xAI keeps API requests for up to 30 days for abuse monitoring and does not train on them. Data is not sold, not used for advertising, not used to train AI models, and not shared with anyone else.
+Message content is used only to provide features to the account owner: classifying messages, extracting dates, reminders and reference details (such as confirmation numbers), tracking sent messages that are waiting for a reply, and producing a daily summary. To do this, message text is sent to Google's Gemini API (paid service) for processing; under Google's paid-service terms, this data is not used to train Google's models. Data is not sold, not used for advertising, not used to train AI models, and not shared with anyone else.
 
 ## Storage and retention
 
